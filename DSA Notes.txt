@@ -60,7 +60,7 @@ DATA TYPES
 
 3. SINGLE CHARACTER('a', 'b' ,'l' ,'p') : -----> char
 
-4. TEXT - Sequence of characters ("NIKUNJ)- Array of char
+4. TEXT - Sequence of characters ("NIKUNJ)- Array of char:----> String
 
 5. single bit value ( 0 or 1): 
 
