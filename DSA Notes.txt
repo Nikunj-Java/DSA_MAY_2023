@@ -1,0 +1,44 @@
+***************************************************************************************************************
+BASIC OF COMPUTER PROGRAMMING LANGUAGE
+***************************************************************************************************************
+
+VARIABLE:
+--------------
+
+	- whose value van be varied and not fixed everytime
+	- whenever you try to work with with some program yoou required to take input from user to process the input and generate Output
+	- for that we declare variables
+	- it store the value and you can process the same;
+
+INDENTIFIER:
+---------------
+	- to identify a variable created  , we required intendifier
+	- we can say that name of variable
+	- to name the variable we need to follow some set of rules.
+
+RULEs:
+---------------
+	1. varibale name can't start with a number (1num -----> it is not valid)
+	2. it can be an alphanumeric (num1--------> it is valid)
+	3. No Special characters are allowed (.,@#%& / space etc..)
+	4. Only _(underscore) and $ (dollar) you can use while giving the varibale name.
+	5. it can't be more than 255 character long.
+	6. naming convension: first letter should be in lowercase. if it contains more than one letter like words then first letter we can keep small and rest words starting letter we can keet it as capital
+		eg: 1. First Name:    firstName
+		eg: 2. Middle Name:   middleName
+		eg: 3. Last Name:     lastName
+		eg: 4. Mobile Number: mobileNo 
+
+					OR
+
+		eg: 1. First Name:    first_Name
+		eg: 2. Middle Name:   middle_Name
+		eg: 3. Last Name:     last_Name
+		eg: 4. Mobile Number: mobile_No
+	7. we should not give the name of variable with reserved KEYWORDS
+
+KEYWORDS :
+----------------
+
+- A specific keyword(name) which are basicaaly used to write code in the programming language.
+- like if, else,switch,includes.int,float,boolean,double,char, etc..,
