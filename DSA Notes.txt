@@ -68,4 +68,44 @@ DATA TYPES
 	1-----> True
 
 
+***************************************************************************************************************
+SYNTAX:
+***************************************************************************************************************
+LANGUAGE: C
 
+
+#include <stdio.h>
+
+
+int main(){
+
+		printf("Hello World From: SimpliLearn");
+}
+
+
+---------------------------------------------------------------
+
+#include :  includes the library mentioned inside angle brackets, that means if you want to use library then take  the permission from the  same and start using  its function
+		like:  #include <stdio.h>
+
+-stdio.h : it is the library which provides function related to  standard input and output.
+
+-int main(){ //program here } : called as main function ( from where the program starts its execution)
+
+
+- int : it is return type, that means when function executed it return some value
+
+- main: it is the name of method name where () says no parameter required to run this function
+
+- if you want to pass parameters the function look like this
+	--------------------------------------------------------
+	int main(int a, int b){
+
+			return a+b;
+		}
+	--------------------------------------------------------
+-{} Called as a block of code where you can write statements for your logic
+
+- printf: is the function available in "stdio.h" library which is used to display some value as an output
+
+- each statement must ends with semicolon (;)
