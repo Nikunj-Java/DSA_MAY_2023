@@ -62,7 +62,7 @@ DATA TYPES
 
 4. TEXT - Sequence of characters ("NIKUNJ)- Array of char:----> String
 
-5. single bit value ( 0 or 1): 
+5. SINGLE BIT VALUE ( 0 or 1): 
 
 	0-----> False
 	1-----> True
