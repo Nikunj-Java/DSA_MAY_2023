@@ -42,3 +42,30 @@ KEYWORDS :
 
 - A specific keyword(name) which are basicaaly used to write code in the programming language.
 - like if, else,switch,includes.int,float,boolean,double,char, etc..,
+
+
+***************************************************************************************************************
+DATA TYPES
+***************************************************************************************************************
+
+- whenever you try to store your data, your memory must assign a memory size to that variable, it can store value inside the same, that you can define the type of your data. That means you data can be a 
+		number(12), 
+		text("welcome to SimpliLearn"), 
+		single character('A'), 
+		or boolean data type( True or False)
+
+1. WHOLE NUMBER (0,1,2,3,4,5,6......): it can be zero or possitive:------>  int
+
+2. DECIMAL NUMBER (1.2, 4.6, 7.9) : it can be  negative or positive or zero but with floating points:---> float
+
+3. SINGLE CHARACTER('a', 'b' ,'l' ,'p') : -----> char
+
+4. TEXT - Sequence of characters ("NIKUNJ)- Array of char
+
+5. single bit value ( 0 or 1): 
+
+	0-----> False
+	1-----> True
+
+
+
