@@ -109,3 +109,206 @@ int main(){
 - printf: is the function available in "stdio.h" library which is used to display some value as an output
 
 - each statement must ends with semicolon (;)
+
+
+***************************************************************************************************************
+COMPILER AND PROGRAMS (C: LANGUAGE)
+***************************************************************************************************************
+
+simple program with variable declaration
+------------------------------------------
+
+#include <stdio.h>
+
+int main(){
+    int num1 =10;
+    int num2 =20;
+    int result = num1+num2;
+    
+    printf("Number 1 =%d \n",num1);
+    printf("Number 2 =%d \n",num2);
+    printf("Result of Addition =%d \n",result);
+    
+    printf("%d + %d =%d",num1,num2,result);
+    //%d is used for integer or decimal datatype , \n is used for new line
+}
+
+***************************************************************************************************************
+OPERATORS:
+***************************************************************************************************************
+1. ARITHMATIC OPERATORS
+------------------------
+
+ +  addition
+ -  subtraction
+ *  multiplication
+ /  division
+
+
+----------------------------
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main(){
+    int num1= 100;
+    int num2= 50;
+    
+    int add= num1+num2;
+    int sub= num1-num2;
+    int mul= num1*num2;
+    int divide= num1/num2;
+    
+    printf("Number 1=%d \n",num1);
+    printf("Number 2=%d \n",num2);
+    
+    //addition
+    printf("%d + %d = %d \n",num1,num2,add);
+    
+    //subtraction
+    printf("%d - %d = %d \n",num1,num2,sub);
+    
+    //multiplication
+    printf("%d * %d = %d \n",num1,num2,mul);
+    
+    //division
+    printf("%d / %d = %d \n",num1,num2,divide);
+    
+}
+
+-----------------------------------------
+
+***************************************************************************************************************
+COMMENTS
+***************************************************************************************************************
+- They are non-executable code in your program (Not Run in The Program)
+
+- we can write this for developer use
+
+- there are two types of comments
+	1. SINGLE LINE COMMENT
+	2. MULTI LINE COMMNET
+
+1. SINGLE LINE COMMENT
+	// this is an example of simple line comment
+
+2. MULTI LINE COMMENT
+
+	/* this is an 
+	example of 
+	multi line
+	comment */
+
+
+***************************************************************************************************************
+ALGORITHMS
+***************************************************************************************************************
+- it is the set of well defined instructions to solve a particular problem
+- it takes a set of input(s) and produces the desired output. 
+- for Eg:
+	1. take two numbers Input
+	2. Add Numbers using Operator
+	3. Display the result
+
+
+what is the Quality of Algorithm?
+---------------------------------
+1. input and output should be defined clearly
+2. each step in the algorithm should be clear
+3. algorithm should not include computer codes. instead of this , algorithms should be written in such a way that it can be used in different programming language also
+
+***************************************************************************************************************
+2. RELATIONAL OPERATORS
+***************************************************************************************************************
+
+used to compare two or more inputs
+
+<	---------------> LESS THAN
+>	---------------> GREATER THAN
+<=	---------------> LESS THAN OR EQUALS
+>=	---------------> GREATER THAN EQUALS
+==	---------------> EQUALS TO
+!=	---------------> NOT EQUALS
+
+LET'S PREPARE ONE PROGRAM OUT OF THE ABOVE  OPERATOR AND GET THE RESULT
+-------------------------------------------------------------------------------------
+
+WHEN YOU WANT TO CHECK SOME CONDITION , CONDITIONAL STATEMENTS ARE USED FOR CHECKING CONDITIONS
+
+
+if,if else, else if:
+
+------------------------
+
+if(condition)
+{
+
+	//this code executed if condition is true
+}
+-----------------------
+
+if(condition)
+{
+
+	//this code executed if condition is true
+}
+else{
+	//this code executed if condition is false
+}
+
+---------------------------
+
+if(condition 1)
+{
+
+	//this code executed if condition1 is true
+}
+else if (condition 2){
+	//this code executed if condition2 is true
+}
+else if (condition 3){
+	//this code executed if condition3 is true
+}
+else if (condition 4){
+	//this code executed if condition4 is true
+}
+else{
+	//this code executed if condition is false
+}
+
+
+
+Example:1 
+---------------------
+
+
+#include <stdio.h>
+
+int main() {
+    int num1 = 20;
+    int num2 = 120;
+    
+    if(num1 > num2)
+    {
+        printf("%d is larger: cond1 \n",num1);
+    }
+    else if(num1 < num2)
+    {
+        printf("%d is larger: cond2 \n",num2);
+    }
+    else if(num1 == num2)
+    {
+        printf("%d is equal: cond3 \n",num2);
+    }
+    
+    else
+    {
+        printf("%d is smaller \n",num2);
+    }
+}
+
+
+------------------------
+
+TASK:
+
+	1. write a program to display your name, address, phone qualification Details Line by Line:
