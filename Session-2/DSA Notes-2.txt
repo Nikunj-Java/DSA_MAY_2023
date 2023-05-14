@@ -1,0 +1,132 @@
+Practice:
+
+1. WRITE A PROGRAM TO CALCULATE SIMPLE INTEREST
+	Formula= P*N*R/100
+	P: principal amount (3000)
+	N: no of years (3)
+	R: Rate of Interest (9.55)
+
+
+Solution:
+
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+   float p= 12000;
+   float n=3;
+   float r= 9.55;
+   
+   float simpleInterest=((p*n*r)/100);
+   
+   printf("Simple Interest =%f \n",simpleInterest);
+}
+
+2. WRITE A PROGRAM TO CALCULATE VALIDITY OF USER ELIGLIBLE FOR VOTING
+	(HINT: AGE>18)
+
+
+***************************************************************************************************************
+3. LOGICAL OPERATORS
+***************************************************************************************************************
+- it is used to combine the condition
+
+- if you want to test more than one condition then you can use logical operators.
+
+&& (AND)--------> IF BOTH CONDITIONS ARE TRUE THEN ONLY IT IS EXECUTED
+
+|| (OR)---------> IF ANY OF THE CONDITION IS TRUE IT WILL BE EXECUTED
+
+! (NOT)---------> TO MAKE THE CONDITION FROM 'FALSE' TO 'TRUE' AND 'TRUE' TO 'FALSE'
+
+-------------------------------------------------------------------------------------
+Basic Program:
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+  char c='P';
+  
+  if(c=='a' || c=='e' || c=='i' || c=='o'  || c=='u' ||c=='A' || c=='E' || c=='I' || c=='O'  || c=='U'){
+      printf("Character is Vowel");
+  }
+  else{
+      printf("Character is not a Vowel");
+  }
+}
+
+
+------------------------------------------------------------------------------------------------
+let's take input from user and check the same program
+
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+  char c;
+  printf("Enter Character \n");
+  
+  //scanf is function available in stdio.h for taking input from user
+  scanf("%c",&c);
+  printf("You Have Entered: %c \n",c);
+  
+  
+  if(c=='a' || c=='e' || c=='i' || c=='o'  || c=='u' ||c=='A' || c=='E' || c=='I' || c=='O'  || c=='U'){
+      printf("Character is Vowel");
+  }
+  else{
+      printf("Character is not a Vowel");
+  }
+}
+
+
+
+
+----------------------------------------------------------------------------------------------------------
+
+combine multiple conditions with &&, >=,<= operator and test with else if
+
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    
+    int per=102;
+    
+    if(per>=70 && per<=100){
+        printf ("Congratulations.....!!, You Got Distinction...!");
+    }
+    else if(per>=60 && per<=69){
+        printf ("Congratulations.....!!, You Got First Class...!");
+    }
+    else if(per>=50 && per<=59){
+        printf ("Congratulations.....!!, You Got Second Class...!");
+    }
+    else if(per>=35 && per<=49){
+        printf ("Congratulations.....!!, You Got Pass Class...!");
+    }
+    else if(per>=0 && per<=34){
+        printf ("Sorry.....!!, You are Fail...!");
+    }
+    else{
+        printf ("Kindly Give Proper Percentage");
+    }
+ 
+}
+
+
+
+
+
+
+
+
+	
