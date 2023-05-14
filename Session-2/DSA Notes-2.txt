@@ -237,6 +237,32 @@ int main() {
 }
 
 
+***************************************************************************************************************
+LET'S DO SOME EXAMPLE WITH C++
+***************************************************************************************************************
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Write C++ code here
+    
+    int number=20;
+    
+    cout<<"Hello World \n";
+    cout<<"My Name is Nikunj"<<endl;
+    cout<<"My Roll Number is: "<<number <<endl;
+    
+    //cout : ------------> is used for printing output in console
+    //endl : ------------> is used for ending line and print in next line
+    // either use \n or endl
+     
+
+    
+}
+
+
 
 
 
