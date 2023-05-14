@@ -446,6 +446,39 @@ int main() {
     
 }
 
+
+===========================================================
+Task: WAP to take input from user and iterate the for loop
+===========================================================
+solution:
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Write C++ code here
+   
+    int i=1;
+    
+    int sum=0;
+
+    int input;
+    cout<<"Enter Any Number"<<endl;
+    cin>>input;
+
+    for(i=1;i<=input;i++){
+        
+        sum=sum+i;
+        cout<<"Value of i: "<<i<<endl;
+        cout<<"Value of Sum is: "<<sum<<endl;
+    }
+    
+    cout<<"Loop Terminated";
+    
+}
+
+
  
 
 
