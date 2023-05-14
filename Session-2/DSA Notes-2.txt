@@ -264,6 +264,61 @@ int main() {
 
 
 
+***************************************************************************************************************
+SWITCH CASE
+***************************************************************************************************************
+- In switch case - the condition that you want to match an int or string   or char and compare , accordingly you will get the output
+- this you can do it with if and else case but what happens everytime it will check each condition which make it slower, means to check  the condition it takes time. so if you directly want to jump on some cases we can go  for switch case
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Write C++ code here
+    int num1,num2;
+    
+    cout<<"Enter 2 Numbers"<<endl;
+    
+    //taking input from user (two numbers)
+    cin>>num1>>num2;
+    
+    char op;
+    
+    cout<<"Enter any operator from : + - * /"<<endl;
+    //taking input from user(operator)
+    cin>>op;
+    
+    //switch case
+    switch(op){
+        case '+': cout<<"Addition :"<<(num1+num2)<<endl;
+                    break;
+        case '-': cout<<"Subtraction: "<<(num1-num2)<<endl;
+                    break;
+        case '*': cout<<"Multiplication: "<<(num1*num2)<<endl;
+                    break;
+                    //write division program by your own
+        default: cout<<"Kindly Enter Proper Operator";
+        
+    }
+    
+   
+
+    
+}
+
+
+[Note: 1. cout<<-------is used for printing a value inside console
+       2. cin>> -------is use for taking input from User]
+
+
+
+
+
+
+
+
 
 
 	
